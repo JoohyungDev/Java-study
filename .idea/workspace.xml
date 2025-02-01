@@ -4,11 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38458e6a-5d59-40c4-8ea9-7a23d1e60df2" name="Changes" comment="Start studying Java Intermediate, Part 1" />
+    <list default="true" id="38458e6a-5d59-40c4-8ea9-7a23d1e60df2" name="Changes" comment="Start studying Java Intermediate, Part 1">
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/LangMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/ObjectMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/poly/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/poly/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/poly/ObjectPolyExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/poly/ObjectPolyExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/tostring/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/tostring/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/tostring/ObjectPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/tostring/ToStringMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/tostring/ToStringMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -38,14 +60,26 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2sO9NVaduD8NKJGg0kCIWHvwtc0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.LangMain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ObjectMain.executor": "Run",
+    "Application.ObjectPolyExample1.executor": "Run",
+    "Application.ObjectPolyExample2.executor": "Run",
+    "Application.ToStringMain1.executor": "Run",
+    "Application.ToStringMain2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/PJH/Desktop/코딩/github/Java-study",
     "node.js.detected.package.eslint": "true",
@@ -53,12 +87,89 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/PJH/Desktop/코딩/github/Java-study/java-mid1/src/Main.java",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.ToStringMain2">
+    <configuration name="ObjectMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.Object.ObjectMain" />
+      <module name="java-mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lang.Object.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectPolyExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.Object.poly.ObjectPolyExample1" />
+      <module name="java-mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lang.Object.poly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectPolyExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.Object.poly.ObjectPolyExample2" />
+      <module name="java-mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lang.Object.poly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToStringMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.Object.tostring.ToStringMain1" />
+      <module name="java-mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lang.Object.tostring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToStringMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.Object.tostring.ToStringMain2" />
+      <module name="java-mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lang.Object.tostring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ToStringMain2" />
+        <item itemvalue="Application.ToStringMain1" />
+        <item itemvalue="Application.ObjectPolyExample2" />
+        <item itemvalue="Application.ObjectPolyExample1" />
+        <item itemvalue="Application.ObjectMain" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,7 +190,8 @@
       <workItem from="1738316006350" duration="307000" />
       <workItem from="1738316321212" duration="424000" />
       <workItem from="1738316754485" duration="19000" />
-      <workItem from="1738317191239" duration="1079000" />
+      <workItem from="1738317191239" duration="1528000" />
+      <workItem from="1738390450392" duration="6699000" />
     </task>
     <task id="LOCAL-00001" summary="Modify default settings">
       <option name="closed" value="true" />
@@ -113,7 +225,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738316504097</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Start studying Java Intermediate, Part 1">
+      <option name="closed" value="true" />
+      <created>1738318417437</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738318417437</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Start studying Java Intermediate, Part 1">
+      <option name="closed" value="true" />
+      <created>1738318451946</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738318451946</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,5 +274,16 @@
     <MESSAGE value="Modify default settings" />
     <MESSAGE value="Start studying Java Intermediate, Part 1" />
     <option name="LAST_COMMIT_MESSAGE" value="Start studying Java Intermediate, Part 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java-mid1/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
