@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38458e6a-5d59-40c4-8ea9-7a23d1e60df2" name="Changes" comment="Object class and equals()">
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/equals/EqualsMainV2.java" afterDir="false" />
+    <list default="true" id="38458e6a-5d59-40c4-8ea9-7a23d1e60df2" name="Changes" comment="Simple equals() vs. IDE-created equals()">
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/test/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/test/RectangleMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mid1/src/lang/Object/equals/UserV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/equals/UserV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +64,7 @@
     "Application.ObjectMain.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
     "Application.ObjectPolyExample2.executor": "Run",
+    "Application.RectangleMain.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -85,7 +86,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EqualsMainV2">
+  <component name="RunManager" selected="Application.RectangleMain">
     <configuration name="EqualsMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lang.Object.equals.EqualsMainV1" />
       <module name="java-mid1" />
@@ -112,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectPolyExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.Object.poly.ObjectPolyExample2" />
+    <configuration name="RectangleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.Object.test.RectangleMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.Object.poly.*" />
+          <option name="PATTERN" value="lang.Object.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RectangleMain" />
         <item itemvalue="Application.EqualsMainV2" />
         <item itemvalue="Application.EqualsMainV1" />
         <item itemvalue="Application.ToStringMain2" />
         <item itemvalue="Application.ToStringMain1" />
-        <item itemvalue="Application.ObjectPolyExample2" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +185,7 @@
       <workItem from="1738317191239" duration="1528000" />
       <workItem from="1738390450392" duration="7314000" />
       <workItem from="1738459051129" duration="1677000" />
-      <workItem from="1738477125851" duration="795000" />
+      <workItem from="1738477125851" duration="1864000" />
     </task>
     <task id="LOCAL-00001" summary="Modify default settings">
       <option name="closed" value="true" />
@@ -250,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738460985270</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Simple equals() vs. IDE-created equals()">
+      <option name="closed" value="true" />
+      <created>1738477975833</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738477975833</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +293,8 @@
     <MESSAGE value="Start studying Java Intermediate, Part 1" />
     <MESSAGE value="Object class and toString()" />
     <MESSAGE value="Object class and equals()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object class and equals()" />
+    <MESSAGE value="Simple equals() vs. IDE-created equals()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple equals() vs. IDE-created equals()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
