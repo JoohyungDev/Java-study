@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38458e6a-5d59-40c4-8ea9-7a23d1e60df2" name="Changes" comment="Start studying Java Intermediate, Part 1">
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/LangMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/ObjectMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/poly/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/poly/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/poly/ObjectPolyExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/poly/ObjectPolyExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/tostring/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/tostring/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/tostring/ObjectPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/tostring/ToStringMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/tostring/ToStringMain2.java" afterDir="false" />
+    <list default="true" id="38458e6a-5d59-40c4-8ea9-7a23d1e60df2" name="Changes" comment="Object class and toString()">
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/equals/EqualsMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/equals/UserV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/Object/equals/UserV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +58,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EqualsMainV1.executor": "Run",
     "Application.LangMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ObjectMain.executor": "Run",
@@ -94,13 +85,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ToStringMain2">
-    <configuration name="ObjectMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.Object.ObjectMain" />
+  <component name="RunManager" selected="Application.EqualsMainV1">
+    <configuration name="EqualsMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.Object.equals.EqualsMainV1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.Object.*" />
+          <option name="PATTERN" value="lang.Object.equals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EqualsMainV1" />
         <item itemvalue="Application.ToStringMain2" />
         <item itemvalue="Application.ToStringMain1" />
         <item itemvalue="Application.ObjectPolyExample2" />
         <item itemvalue="Application.ObjectPolyExample1" />
-        <item itemvalue="Application.ObjectMain" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +182,8 @@
       <workItem from="1738316321212" duration="424000" />
       <workItem from="1738316754485" duration="19000" />
       <workItem from="1738317191239" duration="1528000" />
-      <workItem from="1738390450392" duration="6699000" />
+      <workItem from="1738390450392" duration="7314000" />
+      <workItem from="1738459051129" duration="1498000" />
     </task>
     <task id="LOCAL-00001" summary="Modify default settings">
       <option name="closed" value="true" />
@@ -241,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738318451946</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Object class and toString()">
+      <option name="closed" value="true" />
+      <created>1738399766878</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738399766878</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +273,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modify default settings" />
     <MESSAGE value="Start studying Java Intermediate, Part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start studying Java Intermediate, Part 1" />
+    <MESSAGE value="Object class and toString()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object class and toString()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
