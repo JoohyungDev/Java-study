@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38458e6a-5d59-40c4-8ea9-7a23d1e60df2" name="Changes" comment="Immutable Objects Problem Solving 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mid1/src/lang/immutable/test/ImmutableMyDateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-mid1/src/lang/immutable/test/ImmutableMyDateMain.java" afterDir="false" />
-    </list>
+    <list default="true" id="38458e6a-5d59-40c4-8ea9-7a23d1e60df2" name="Changes" comment="Improve readability" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +202,7 @@
       <workItem from="1738477125851" duration="2503000" />
       <workItem from="1738585679244" duration="3392000" />
       <workItem from="1738641162483" duration="3944000" />
-      <workItem from="1739002573198" duration="3237000" />
+      <workItem from="1739002573198" duration="3555000" />
     </task>
     <task id="LOCAL-00001" summary="Modify default settings">
       <option name="closed" value="true" />
@@ -319,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739006158987</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Improve readability">
+      <option name="closed" value="true" />
+      <created>1739006276425</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1739006276425</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +364,8 @@
     <MESSAGE value="Immutable object examples" />
     <MESSAGE value="Immutable Objects - Changing Values" />
     <MESSAGE value="Immutable Objects Problem Solving 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Immutable Objects Problem Solving 2" />
+    <MESSAGE value="Improve readability" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve readability" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
