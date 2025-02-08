@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38458e6a-5d59-40c4-8ea9-7a23d1e60df2" name="Changes" comment="Why introduce immutable objects?">
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/immutable/address/ImmutableAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/immutable/address/MemberMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/immutable/address/MemberMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/immutable/address/MemberV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/immutable/address/MemberV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/immutable/address/RefMain2.java" afterDir="false" />
+    <list default="true" id="38458e6a-5d59-40c4-8ea9-7a23d1e60df2" name="Changes" comment="Immutable object examples">
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/immutable/change/ImmutableMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/immutable/change/ImmutableMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/immutable/change/ImmutableObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/immutable/change/MutableMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/immutable/change/MutableObj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,10 +62,13 @@
   "keyToString": {
     "Application.EqualsMainV1.executor": "Run",
     "Application.EqualsMainV2.executor": "Run",
+    "Application.ImmutableMain1.executor": "Run",
+    "Application.ImmutableMain2.executor": "Run",
     "Application.LangMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MemberMainV1.executor": "Run",
     "Application.MemberMainV2.executor": "Run",
+    "Application.MutableMain.executor": "Run",
     "Application.ObjectMain.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
     "Application.ObjectPolyExample2.executor": "Run",
@@ -99,10 +101,37 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lang.immutable.change" />
       <recent name="lang.immutable.address" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MemberMainV2">
+  <component name="RunManager" selected="Application.ImmutableMain2">
+    <configuration name="ImmutableMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.change.ImmutableMain1" />
+      <module name="java-mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lang.immutable.change.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImmutableMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.change.ImmutableMain2" />
+      <module name="java-mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lang.immutable.change.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MemberMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lang.immutable.address.MemberMainV1" />
       <module name="java-mid1" />
@@ -129,38 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefMain1_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.RefMain1_2" />
+    <configuration name="MutableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.change.MutableMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.immutable.address.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RefMain1_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.RefMain1_3" />
-      <module name="java-mid1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lang.immutable.address.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RefMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.RefMain2" />
-      <module name="java-mid1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lang.immutable.address.*" />
+          <option name="PATTERN" value="lang.immutable.change.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImmutableMain2" />
+        <item itemvalue="Application.ImmutableMain1" />
+        <item itemvalue="Application.MutableMain" />
         <item itemvalue="Application.MemberMainV2" />
         <item itemvalue="Application.MemberMainV1" />
-        <item itemvalue="Application.RefMain2" />
-        <item itemvalue="Application.RefMain1_3" />
-        <item itemvalue="Application.RefMain1_2" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +206,8 @@
       <workItem from="1738459051129" duration="1677000" />
       <workItem from="1738477125851" duration="2503000" />
       <workItem from="1738585679244" duration="3392000" />
-      <workItem from="1738641162483" duration="2331000" />
+      <workItem from="1738641162483" duration="3944000" />
+      <workItem from="1739002573198" duration="2047000" />
     </task>
     <task id="LOCAL-00001" summary="Modify default settings">
       <option name="closed" value="true" />
@@ -293,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738587896851</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Immutable object examples">
+      <option name="closed" value="true" />
+      <created>1738645103101</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738645103101</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +342,8 @@
     <MESSAGE value="Simple equals() vs. IDE-created equals()" />
     <MESSAGE value="Solve Object Class Problems" />
     <MESSAGE value="Why introduce immutable objects?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Why introduce immutable objects?" />
+    <MESSAGE value="Immutable object examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Immutable object examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
