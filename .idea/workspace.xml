@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38458e6a-5d59-40c4-8ea9-7a23d1e60df2" name="Changes" comment="Adding source code">
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/CharArrayMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/StringBasicMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/StringConcatMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/equals/StringEqualsMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/equals/StringEqualsMain2.java" afterDir="false" />
+    <list default="true" id="38458e6a-5d59-40c4-8ea9-7a23d1e60df2" name="Changes" comment="Comparing String classes">
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/immutable/StringImmutable1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/immutable/StringImmutable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/method/StringComparisonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/method/StringInfoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/method/StringSearchMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,9 +82,14 @@
     "Application.RefMain1_3.executor": "Run",
     "Application.RefMain2.executor": "Run",
     "Application.StringBasicMain.executor": "Run",
+    "Application.StringComparisonMain.executor": "Run",
     "Application.StringConcatMain.executor": "Run",
     "Application.StringEqualsMain1.executor": "Run",
     "Application.StringEqualsMain2.executor": "Run",
+    "Application.StringImmutable1.executor": "Run",
+    "Application.StringImmutable2.executor": "Run",
+    "Application.StringInfoMain.executor": "Run",
+    "Application.StringSearchMain.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -111,17 +116,18 @@
       <recent name="C:\Users\PJH\Desktop\코딩\github\Java-study\java-mid1\src\lang\immutable\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lang.string.immutable" />
       <recent name="lang.immutable.change" />
       <recent name="lang.immutable.address" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringEqualsMain2">
-    <configuration name="CharArrayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.CharArrayMain" />
+  <component name="RunManager" selected="Application.StringSearchMain">
+    <configuration name="StringComparisonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringComparisonMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.*" />
+          <option name="PATTERN" value="lang.string.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBasicMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.StringBasicMain" />
+    <configuration name="StringImmutable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.immutable.StringImmutable1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.*" />
+          <option name="PATTERN" value="lang.string.immutable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringConcatMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.StringConcatMain" />
+    <configuration name="StringImmutable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.immutable.StringImmutable2" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.*" />
+          <option name="PATTERN" value="lang.string.immutable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringEqualsMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.equals.StringEqualsMain1" />
+    <configuration name="StringInfoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringInfoMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.equals.*" />
+          <option name="PATTERN" value="lang.string.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringEqualsMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.equals.StringEqualsMain2" />
+    <configuration name="StringSearchMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringSearchMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.equals.*" />
+          <option name="PATTERN" value="lang.string.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringEqualsMain2" />
-        <item itemvalue="Application.StringEqualsMain1" />
-        <item itemvalue="Application.StringConcatMain" />
-        <item itemvalue="Application.StringBasicMain" />
-        <item itemvalue="Application.CharArrayMain" />
+        <item itemvalue="Application.StringSearchMain" />
+        <item itemvalue="Application.StringComparisonMain" />
+        <item itemvalue="Application.StringInfoMain" />
+        <item itemvalue="Application.StringImmutable2" />
+        <item itemvalue="Application.StringImmutable1" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +224,8 @@
       <workItem from="1738585679244" duration="3392000" />
       <workItem from="1738641162483" duration="3944000" />
       <workItem from="1739002573198" duration="4228000" />
-      <workItem from="1739092880644" duration="2466000" />
+      <workItem from="1739092880644" duration="2584000" />
+      <workItem from="1739184352205" duration="1949000" />
     </task>
     <task id="LOCAL-00001" summary="Modify default settings">
       <option name="closed" value="true" />
@@ -348,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739006621752</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Comparing String classes">
+      <option name="closed" value="true" />
+      <created>1739095474472</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1739095474472</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +405,8 @@
     <MESSAGE value="Immutable Objects Problem Solving 2" />
     <MESSAGE value="Improve readability" />
     <MESSAGE value="Adding source code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding source code" />
+    <MESSAGE value="Comparing String classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparing String classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
