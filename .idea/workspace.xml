@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38458e6a-5d59-40c4-8ea9-7a23d1e60df2" name="Changes" comment="Comparing String classes">
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/method/StringChangeMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/method/StringChangeMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/method/StringSplitJoinMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/method/StringUtilsMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/method/StringUtilsMain2.java" afterDir="false" />
+    <list default="true" id="38458e6a-5d59-40c4-8ea9-7a23d1e60df2" name="Changes" comment="String Class - Key Methods2">
+      <change afterPath="$PROJECT_DIR$/java-mid1/src/lang/string/builder/StringBuilderMain1_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +78,7 @@
     "Application.RefMain1_3.executor": "Run",
     "Application.RefMain2.executor": "Run",
     "Application.StringBasicMain.executor": "Run",
+    "Application.StringBuilderMain1_1.executor": "Run",
     "Application.StringChangeMain1.executor": "Run",
     "Application.StringChangeMain2.executor": "Run",
     "Application.StringComparisonMain.executor": "Run",
@@ -127,13 +124,13 @@
       <recent name="lang.immutable.address" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringUtilsMain2">
-    <configuration name="StringChangeMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringChangeMain1" />
+  <component name="RunManager" selected="Application.StringBuilderMain1_1">
+    <configuration name="StringBuilderMain1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.builder.StringBuilderMain1_1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.method.*" />
+          <option name="PATTERN" value="lang.string.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringBuilderMain1_1" />
         <item itemvalue="Application.StringUtilsMain2" />
         <item itemvalue="Application.StringUtilsMain1" />
         <item itemvalue="Application.StringSplitJoinMain" />
         <item itemvalue="Application.StringChangeMain2" />
-        <item itemvalue="Application.StringChangeMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +230,7 @@
       <workItem from="1739092880644" duration="2584000" />
       <workItem from="1739184352205" duration="1949000" />
       <workItem from="1739270139683" duration="1474000" />
-      <workItem from="1739271779115" duration="1468000" />
+      <workItem from="1739271779115" duration="2183000" />
     </task>
     <task id="LOCAL-00001" summary="Modify default settings">
       <option name="closed" value="true" />
@@ -371,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739095474472</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="String Class - Key Methods2">
+      <option name="closed" value="true" />
+      <created>1739276775670</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1739276775670</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +419,8 @@
     <MESSAGE value="Improve readability" />
     <MESSAGE value="Adding source code" />
     <MESSAGE value="Comparing String classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comparing String classes" />
+    <MESSAGE value="String Class - Key Methods2" />
+    <option name="LAST_COMMIT_MESSAGE" value="String Class - Key Methods2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
